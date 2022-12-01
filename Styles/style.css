@@ -1,0 +1,151 @@
+
+
+:root {
+    --noir1: #21201E;
+    --noir2: #2D2B29;
+    --brand: #ED9902;
+    --white: #ffffffff;
+    --body: #9B968B;
+}
+
+body{
+    color: var(--body);
+    font-family: 'rubik', sans-serif;
+    background-color: var(--dark1);
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+/*barre de navigation*/
+.navbar .nav-link {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+/*a propos de moi */
+#about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center ;
+}
+#about h1 {
+    font-weight: 600;
+
+}
+
+#about .person-is span {
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: var(--white);
+    margin-right: 8px;
+
+}
+
+#about img {
+    border-radius: 1000px;
+    border: 8px solid var(--brand);
+}
+
+.person-img {
+    position: relative;
+    z-index: 2;
+}
+
+.ellipse-top {
+    width: 70%;
+    height: 70%;
+    background: linear-gradient(180deg, #4D4A45 0%, #292824 100%);
+    position: absolute;
+    top: -10%;
+    right: 0;
+    border-radius: 1000px;
+    z-index: -1;
+}
+
+.ellipse-bottom {
+    width: 40%;
+    height: 40%;
+    background: linear-gradient(180deg, #4D4A45 0%, #292824 100%);
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    border-radius: 1000px;
+    z-index: -1;
+}
+
+/* BTN */
+.btn {
+    padding: 13px 17px;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+}
+
+
+
+
+
+body {
+    margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {               
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 0, 0);
+}
+
+.active {
+  background-color: rgb(255, 0, 0);
+}
+
+.texte{
+    color: rgb(0, 0, 0);
+}

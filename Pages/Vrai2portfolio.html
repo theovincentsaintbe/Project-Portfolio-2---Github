@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin:0;
+    background-color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {               
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 0, 0);
+}
+
+.active {
+  background-color: rgb(255, 0, 0);
+}
+
+.texte{
+    color: rgb(255, 255, 255);
+}
+
+
+.Mail{
+  color: rgb(255, 0, 0);
+  margin-left: 300px;
+  border-color: blue;
+}
+
+.mecontacter{
+color: crimson;
+}
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Profil</a></li>
+  <li><a href="#news">compétences</a></li>
+  <li><a href="#contact">hobbies</a></li>
+  <li><a href="#about">me contacter</a></li>
+</ul>
+
+
+
+<div class="texte" 
+      
+    <h1>Theo</h1>
+        <h1>ETUDIANT / BTS SIO / DIJON(FRANCE,21)</h1>
+            <h3>Bonjour je suis théo Vincent, 18 ans, étudiant en informatique    
+                en bts à dijon , passionnée d'informatique je souhaite
+                acquérir des compétences dans ce domaine pour espérer
+                pouvoir en faire mon métier dans l'avenir .</h3>
+    <p>Réferentiel BTS SIO                       Rapport de stage
+
+    <h1>MES COMPETENCES</h1>
+        <h3>Dans cette partie vous pouvez voir les différentes compétences:</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Unity_2021.svg/1200px-Unity_2021.svg.png" width="800" height="800">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" width="300" height="500">
+            <img src="https://i2.wp.com/leblogducodeur.fr/wp-content/uploads/2020/02/c.png?fit=1200%2C630&ssl=1" width="800" height="800">
+            <img src="https://www.pierre-giraud.com/html-css/cours-complet/imgs/logo-html5-css3.png" width="800" height="800">
+            <img src="data:image/png;base64,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" width="300" height="500">
+            <img src="../Images/thumbnail_image_6483441 (2).jpg" width="300" height="300">
+
+    <br>
+    <h1>Mes centres d'intérêts</h1>
+    <br>
+    
+    <img src="https://apluscourses.com/wp-content/uploads/2020/06/The-Evolution-Of-Web-Development.jpg" width="300" height="500">
+        <p> n'ayant jamais fait beaucoup d'informatique ce n'est que tres récemment que je découvre cette passion.
+            Ce qui m'as permit aussi de me diriger sur des études qui vont avec.</p>
+    
+    <img src="https://www.fcbarcelona.com/photo-resources/2021/08/09/276ad270-e5c6-453d-8d9f-212417ad7cb3/Camp-Nou-3.jpg?width=1200&height=750" width="300" height="500">
+        <p>Mon autre passion est pour le sport en général mais surtout en grande partie pour le footbal et l'histoire de
+            ce sport et de mon équipe le FC Barcelone.
+            J'aimerai beaucoup travailler dans l'avenir par exemple en associant l'inofrmatique et le sport(crée des 
+            applications pour les athlètes,aider à faire avancer les technologies dans le sport etc ...) 
+        </p>
+    
+    <img src="https://media.gettyimages.com/photos/roger-federer-of-switzerland-holds-the-trophy-after-winning-the-mens-picture-id475603628" width="300" height="500">
+        <p>Mon autre passion est toujours dans le domaine du sport, mais cette fois ci c'est le tennis. Un sport que je 
+        pratique depuis jeunes et que j'apprécie énormément beaucoup .
+        </p>
+    
+
+        <button onclick="window.location.href = 'https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf/';">REFERENTIEL BTS SIO</button>
+
+
+        <button onclick="window.location.href = 'https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf/';">Rapport de satge</button>
+
+        <button onclick="window.location.href = 'https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf/';">CV</button>
+
+
+
+      <div class="Mail">Envoyer un mail</div>
+        <p>M'envoyer un <a href="mailto:pierre.giraud@edhec.com">mail</a></p>
+
+<div class="mecontacter"></div>
+    <br>
+      <h1> ME CONTACTER </h1>
+      <h3>Entrez vodre nom</h3>
+      <h3>Entrez votre adresse e mail</h3>
+      <h3>Entrez votre message</h3>
+      <h3>envoyer</h3>
+      </div>
+</div>
+
+</body>
+</html>
